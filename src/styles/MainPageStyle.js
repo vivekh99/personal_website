@@ -97,11 +97,10 @@ export const WelcomeText = styled.div`
   }
 `;
 
-export const Div1 = styled.div`
+export const ProfilePic = styled.div`
   position: absolute;
-  top: -10;
-  right: 100px;
-  height: 250px;
+  right: 5%;
+  height: 95%;
   width: 250px;
   border-radius: 50%;
   background-image: url(${(props) => props.img});
@@ -122,19 +121,14 @@ export const Section = styled.section`
   height: 200px;
   padding: 30px;
   padding-right: ${(props) => props.padding};
-  color: black;
+  color: ${(props) => props.textColor};
   font-family: "Raleway", sans-serif;
-  background: linear-gradient(#d8d8d8, #e0e0e0);
+  background: ${(props) => props.backgroundColor};
 `;
 
 export const AboutMe = styled.div`
   position: absolute;
-`;
-
-export const ProfilePic = styled.div`
-  position: absolute;
-  background-image: url(${(props) => props.img});
-  height: 100px;
+  width: 60%;
 `;
 
 export const ProjectList = styled.div`
@@ -142,10 +136,9 @@ export const ProjectList = styled.div`
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding: 30px;
 `;
 
-export const Project = styled.button`
+export const Project = styled.a`
   height: 50px;
   width: 170px;
   cursor: pointer;
@@ -155,6 +148,19 @@ export const Project = styled.button`
   color: white;
   border-radius: 10px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  padding-top: 20px;
+  text-decoration: none;
+  &:hover {
+    background-color: black;
+  }
+`;
+export const MovieList = styled.a`
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  outline: 2px solid black;
   &:hover {
     background-color: black;
   }
