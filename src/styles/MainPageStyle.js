@@ -165,3 +165,15 @@ export const MovieList = styled.a`
     background-color: black;
   }
 `;
+
+export const LinkedIn = styled.a`
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+
+  outline: 2px solid black;
+  &:hover {
+    background-color: black;
+  }
+`;

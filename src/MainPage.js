@@ -13,6 +13,7 @@ import {
   ProfilePic,
   AboutMe,
   MovieList,
+  LinkedIn,
 } from "./styles/MainPageStyle.js";
 import central from "./images/overlook.jpg";
 import beach from "./images/oahu_beach.jpg";
@@ -115,9 +116,9 @@ export const MainPage = () => {
       >
         <h2>Contact Me!</h2>
         Email: hanasogevivek@gmail.com <br />
-        <a href="https://www.linkedin.com/in/vivek-hanasoge-48b5011ab">
+        <LinkedIn href="https://www.linkedin.com/in/vivek-hanasoge-48b5011ab">
           LinkedIn
-        </a>
+        </LinkedIn>
         <br />
         <button>Resume</button>
       </Section>
