@@ -13,7 +13,7 @@ import {
   ProfilePic,
   AboutMe,
   MovieList,
-  LinkedIn,
+  ContactBtn,
 } from "./styles/MainPageStyle.js";
 import central from "./images/overlook.jpg";
 import beach from "./images/oahu_beach.jpg";
@@ -36,7 +36,7 @@ export const MainPage = () => {
         <TitleText>Vivek Hanasoge</TitleText>
         <Button href="#about">About Me</Button>
         <Button href="#project">Projects</Button>
-        <Button href="#contact">Resume</Button>
+        <Button href="#contact">Contact Me</Button>
       </NavBar>
       <ImgStyle img={central} height="100vh" color="green">
         <MainContainer>
@@ -116,11 +116,13 @@ export const MainPage = () => {
       >
         <h2>Contact Me!</h2>
         Email: hanasogevivek@gmail.com <br />
-        <LinkedIn href="https://www.linkedin.com/in/vivek-hanasoge-48b5011ab">
+        <ContactBtn
+          href="https://www.linkedin.com/in/vivek-hanasoge-48b5011ab"
+          target="_blank"
+        >
           LinkedIn
-        </LinkedIn>
-        <br />
-        <button>Resume</button>
+        </ContactBtn>
+        <ContactBtn>Resume</ContactBtn>
       </Section>
     </>
   );

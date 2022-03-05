@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
   html {
     background: black;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 `;
 
@@ -156,23 +157,28 @@ export const Project = styled.a`
   }
 `;
 export const MovieList = styled.a`
+  transition: 0.3s;
+  background: #808080;
   color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 10px;
   text-decoration: none;
-  font-weight: bold;
-  padding: 5px;
-  outline: 2px solid black;
   &:hover {
     background-color: black;
   }
 `;
 
-export const LinkedIn = styled.a`
+export const ContactBtn = styled.a`
+  transition: 0.3s;
+  background: #808080;
   color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 10%;
+  margin: 5px;
   text-decoration: none;
-  font-weight: bold;
-  padding: 5px;
-
-  outline: 2px solid black;
   &:hover {
     background-color: black;
   }
