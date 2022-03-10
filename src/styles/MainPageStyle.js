@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
-// import img from "../images/umich_central_campus.jpeg";
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -44,11 +43,6 @@ export const MainContainer = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
-// radial-gradient(
-//   50% 45.31% at 50% 65.43%,
-//   #1f1688 0%,
-//   #070146 100%);
 
 export const Button = styled.a`
   font-size: x-large;

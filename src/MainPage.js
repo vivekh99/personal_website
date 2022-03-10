@@ -66,9 +66,7 @@ export const MainPage = () => {
         </AboutMe>
         <ProfilePic img={profilePic} />
       </Section>
-      <ImgStyle img={oahu} height="500px" color="red">
-        <MainContainer></MainContainer>
-      </ImgStyle>
+      <ImgStyle img={oahu} height="500px" color="red"></ImgStyle>
       <Section
         id="project"
         padding="0px"
@@ -104,9 +102,7 @@ export const MainPage = () => {
           </Project>
         </ProjectList>
       </Section>
-      <ImgStyle img={beach} height="500px" color="red">
-        <MainContainer></MainContainer>
-      </ImgStyle>
+      <ImgStyle img={beach} height="500px" color="red"></ImgStyle>
       <Section
         id="contact"
         padding="0px"
@@ -122,7 +118,6 @@ export const MainPage = () => {
         >
           LinkedIn
         </ContactBtn>
-        <ContactBtn>Resume</ContactBtn>
       </Section>
     </>
   );
